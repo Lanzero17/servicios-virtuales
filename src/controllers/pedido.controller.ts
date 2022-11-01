@@ -60,7 +60,7 @@ export class PedidoController {
 
   @get('/pedidos')
   @response(200, {
-    description: 'Array of Pedido model instances',
+    description: 'Array of Pedido model instances, prueba cambio codigo',
     content: {
       'application/json': {
         schema: {
